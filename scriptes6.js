@@ -233,7 +233,7 @@ function checkCurrentGameStatus() {
         displayMessage(`Game Over , ${ currentplayer } is the winner, click 'reset' to play again.`);
     } else if (checkIfTie()) {
         isGameOver = true;
-        displayMessage('Game Over , Game is Tie... click \'reset\' to play again.');
+        displayMessage('Game Over , Game is Tie... click \'play again button\' to play again.');
     }
 }
 //#25 - check if game is draw.
